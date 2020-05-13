@@ -1,7 +1,7 @@
----
+
 title: Coursera "Getting and Cleaning Data" final assignment.
 output: html_document
----
+
 
 This repository contains 4 files:  
 1. this "README.md" file with general information about this repository  
