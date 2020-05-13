@@ -61,4 +61,4 @@
 ##5-create tidy data set with the average of each variable for each activity and each subject.
               tidydataset <- data %>% group_by(Activity, Subject) %>% summarise_all(mean)
   #save the new dataset in a new file
-              write.table(tidydataset, "tidydataset.txt")
+              write.table(tidydataset, "tidydataset.txt", row.name = FALSE)
